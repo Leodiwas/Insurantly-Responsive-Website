@@ -43,6 +43,19 @@ body {
 li {
   list-style-type: none;
 }
+
+/* scroll Bar */
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark-blue-background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-blue);
+  border-radius: 0.8rem;
+}
+
 /* .................Default Typhography..................... */
 h1 {
   font-weight: 800;
